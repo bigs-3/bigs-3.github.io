@@ -1,0 +1,563 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>Data Analysis Node · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="LabelNode">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search-plus/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-prism/prism-tomorrow.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-splitter/splitter.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-tbfed-pagefooter/footer.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-expandable-chapters-small/expandable-chapters-small.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-anchors/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-anchor-navigation-ex/style/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-multipart/multipart.css">
+                
+            
+                
+                <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-tabs2/tabs.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="supported-networks.html" />
+    
+    
+    <link rel="prev" href="indexing-service-node.html" />
+    
+
+    
+        <link rel="shortcut icon" href='../assets/images/favicon.ico' type="image/x-icon">
+    
+    
+        <link rel="bookmark" href='../assets/images/favicon.ico' type="image/x-icon">
+    
+    
+        <link rel="apple-touch-icon" href='../assets/images/apple-touch-icon.png'>
+    
+    
+        
+        <link rel="apple-touch-icon" sizes="120x120" href="../assets/images/apple-touch-icon-120x120.png">
+        
+        <link rel="apple-touch-icon" sizes="180x180" href="../assets/images/apple-touch-icon-180x180.png">
+        
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                        <b>1.1.</b>
+                    
+                    Introduction to Relation network
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="../about-relation-network.html">
+            
+                <a href="../about-relation-network.html">
+            
+                    
+                        <b>1.2.</b>
+                    
+                    About Relation network
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Node</li>
+        
+        
+    
+        <li class="chapter " data-level="2.1" data-path="indexing-service-node.html">
+            
+                <a href="indexing-service-node.html">
+            
+                    
+                        <b>2.1.</b>
+                    
+                    Indexing Service Node
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="2.2" data-path="data-analysis-node.html">
+            
+                <a href="data-analysis-node.html">
+            
+                    
+                        <b>2.2.</b>
+                    
+                    Data Analysis Node
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3" data-path="supported-networks.html">
+            
+                <a href="supported-networks.html">
+            
+                    
+                        <b>2.3.</b>
+                    
+                    Supported Networks
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Engines</li>
+        
+        
+    
+        <li class="chapter " data-level="3.1" data-path="../engines/label-engines.html">
+            
+                <a href="../engines/label-engines.html">
+            
+                    
+                        <b>3.1.</b>
+                    
+                    Label Engines
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.2" data-path="../engines/relation-engines.html">
+            
+                <a href="../engines/relation-engines.html">
+            
+                    
+                        <b>3.2.</b>
+                    
+                    Relation Engines
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Contracts</li>
+        
+        
+    
+        <li class="chapter " data-level="4.1" data-path="../contracts/friend-relation.html">
+            
+                <a href="../contracts/friend-relation.html">
+            
+                    
+                        <b>4.1.</b>
+                    
+                    Friend Relation
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.2" data-path="../contracts/group-relation.html">
+            
+                <a href="../contracts/group-relation.html">
+            
+                    
+                        <b>4.2.</b>
+                    
+                    Group Relation
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >Data Analysis Node</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div class="search-plus" id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <div id="anchor-navigation-ex-navbar"><i class="fa fa-navicon"></i><ul><li><span class="title-icon "></span><a href="#data-analysis-node"><b>1. </b>Data Analysis Node</a></li><ul><ul><li><span class="title-icon "></span><a href="#prerequisites"><b>1.1.1. </b>Prerequisites</a></li><li><span class="title-icon "></span><a href="#running-a-blockchain-sync-layer"><b>1.1.2. </b>Running a Blockchain Sync Layer</a></li><li><span class="title-icon "></span><a href="#running-data-provider-layer--"><b>1.1.3. </b>Running Data Provider Layer ** </a></li></ul></ul></ul></div><a href="#data-analysis-node" id="anchorNavigationExGoTop"><i class="fa fa-arrow-up"></i></a><h1 id="data-analysis-node"><a name="data-analysis-node" class="anchor-navigation-ex-anchor" href="#data-analysis-node"><i class="fa fa-link" aria-hidden="true"></i></a>1. Data Analysis Node</h1>
+<h3 id="prerequisites"><a name="prerequisites" class="anchor-navigation-ex-anchor" href="#prerequisites"><i class="fa fa-link" aria-hidden="true"></i></a>1.1.1. Prerequisites</h3>
+<p>To build and run this node you need to have the following installed on your system:</p>
+<ul>
+<li>Rust (latest stable) &#x2013; <a href="https://www.rust-lang.org/en-US/install.html" target="_blank">How to install Rust</a><ul>
+<li>Note that <code>rustfmt</code>, which is part of the default Rust installation, is a build-time requirement.</li>
+</ul>
+</li>
+<li>PostgreSQL &#x2013; <a href="https://www.postgresql.org/download/" target="_blank">PostgreSQL Downloads</a></li>
+<li>IPFS &#x2013; <a href="https://docs.ipfs.io/install/" target="_blank">Installing IPFS</a></li>
+</ul>
+<p>For Ethereum network data, you can either run your own Ethereum node or use an Ethereum node provider of your choice.</p>
+<h3 id="running-a-blockchain-sync-layer"><a name="running-a-blockchain-sync-layer" class="anchor-navigation-ex-anchor" href="#running-a-blockchain-sync-layer"><i class="fa fa-link" aria-hidden="true"></i></a>1.1.2. Running a Blockchain Sync Layer</h3>
+<p>This is a quick example to show a working blockchain sync layer.</p>
+<ol>
+<li>Install IPFS and run <code>ipfs init</code> followed by <code>ipfs daemon</code>.</li>
+<li>Install PostgreSQL and run <code>initdb -D .postgres</code> followed by <code>pg_ctl -D .postgres -l logfile start</code> and <code>createdb graphtest</code>.</li>
+<li>If using Ubuntu, you may need to install additional packages:<ul>
+<li><code>sudo apt-get install -y clang libpq-dev libssl-dev pkg-config</code></li>
+</ul>
+</li>
+<li>build docker image</li>
+</ol>
+<pre class="language-"><code class="lang-bash">./docker/build.sh
+</code></pre>
+<ul>
+<li>Command-Line Interface</li>
+</ul>
+<pre class="language-"><code>USAGE:
+    graph-node [FLAGS] [OPTIONS] --ethereum-ipc <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span><span class="token namespace">NETWORK_NAME:</span>FILE</span><span class="token punctuation">&gt;</span></span> --ethereum-rpc <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span><span class="token namespace">NETWORK_NAME:</span>URL</span><span class="token punctuation">&gt;</span></span> --ethereum-ws <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span><span class="token namespace">NETWORK_NAME:</span>URL</span><span class="token punctuation">&gt;</span></span> --ipfs <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span><span class="token namespace">HOST:</span>PORT</span><span class="token punctuation">&gt;</span></span> --postgres-url <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>URL</span><span class="token punctuation">&gt;</span></span>
+
+FLAGS:
+        --debug      Enable debug logging
+    -h, --help       Prints help information
+    -V, --version    Prints version information
+
+OPTIONS:
+        --admin-port <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>PORT</span><span class="token punctuation">&gt;</span></span>                           Port for the JSON-RPC admin server [default: 8020]
+        --elasticsearch-password <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>PASSWORD</span><span class="token punctuation">&gt;</span></span>
+            Password to use for Elasticsearch logging [env: ELASTICSEARCH_PASSWORD]
+
+        --elasticsearch-url <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>URL</span><span class="token punctuation">&gt;</span></span>
+            Elasticsearch service to write subgraph logs to [env: ELASTICSEARCH_URL=]
+
+        --elasticsearch-user <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>USER</span><span class="token punctuation">&gt;</span></span>                   User to use for Elasticsearch logging [env: ELASTICSEARCH_USER=]
+        --ethereum-ipc <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span><span class="token namespace">NETWORK_NAME:</span><span class="token namespace">[CAPABILITIES]:</span>FILE</span><span class="token punctuation">&gt;</span></span>
+            Ethereum network name (e.g. &apos;mainnet&apos;), optional comma-seperated capabilities (eg full,archive), and an Ethereum IPC pipe, separated by a &apos;:&apos;
+
+        --ethereum-polling-interval <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>MILLISECONDS</span><span class="token punctuation">&gt;</span></span>
+            How often to poll the Ethereum node for new blocks [env: ETHEREUM_POLLING_INTERVAL=]  [default: 500]
+
+        --ethereum-rpc <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span><span class="token namespace">NETWORK_NAME:</span><span class="token namespace">[CAPABILITIES]:</span>URL</span><span class="token punctuation">&gt;</span></span>
+            Ethereum network name (e.g. &apos;mainnet&apos;), optional comma-seperated capabilities (eg &apos;full,archive&apos;), and an Ethereum RPC URL, separated by a &apos;:&apos;
+
+        --ethereum-ws <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span><span class="token namespace">NETWORK_NAME:</span><span class="token namespace">[CAPABILITIES]:</span>URL</span><span class="token punctuation">&gt;</span></span>
+            Ethereum network name (e.g. &apos;mainnet&apos;), optional comma-seperated capabilities (eg `full,archive), and an Ethereum WebSocket URL, separated by a &apos;:&apos;
+
+        --http-port <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>PORT</span><span class="token punctuation">&gt;</span></span>                            Port for the GraphQL HTTP server [default: 8000]
+        --ipfs <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span><span class="token namespace">HOST:</span>PORT</span><span class="token punctuation">&gt;</span></span>                            HTTP address of an IPFS node
+        --node-id <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>NODE_ID</span><span class="token punctuation">&gt;</span></span>                           a unique identifier for this node [default: default]
+        --postgres-url <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>URL</span><span class="token punctuation">&gt;</span></span>                          Location of the Postgres database used for storing entities
+        --subgraph <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span><span class="token namespace">[NAME:</span>]IPFS_HASH</span><span class="token punctuation">&gt;</span></span>                 name and IPFS hash of the subgraph manifest
+        --ws-port <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>PORT</span><span class="token punctuation">&gt;</span></span>                              Port for the GraphQL WebSocket server [default: 8001]
+</code></pre><p><strong>For Example</strong></p>
+<pre class="language-"><code class="lang-sh">    <span class="token function">docker</span> run -it <span class="token punctuation">\</span>
+    -p <span class="token number">8000</span>:8000 <span class="token punctuation">\</span>
+    -p <span class="token number">8001</span>:8001 <span class="token punctuation">\</span>
+    -p <span class="token number">8020</span>:8020 <span class="token punctuation">\</span>
+    -p <span class="token number">8030</span>:8030 <span class="token punctuation">\</span>
+    -e <span class="token assign-left variable">postgres_host</span><span class="token operator">=</span><span class="token number">10.0</span>.191.31 <span class="token punctuation">\</span>
+    -e <span class="token assign-left variable">postgres_port</span><span class="token operator">=</span><span class="token number">5432</span> <span class="token punctuation">\</span>
+    -e <span class="token assign-left variable">postgres_user</span><span class="token operator">=</span>graphtest <span class="token punctuation">\</span>
+    -e <span class="token assign-left variable">postgres_pass</span><span class="token operator">=</span>graphtest <span class="token punctuation">\</span>
+    -e <span class="token assign-left variable">postgres_db</span><span class="token operator">=</span>graphtest <span class="token punctuation">\</span>
+    -e <span class="token assign-left variable">ipfs</span><span class="token operator">=</span><span class="token number">10.0</span>.191.31:5001 <span class="token punctuation">\</span>
+    -e <span class="token assign-left variable">ethereum</span><span class="token operator">=</span>privnet:http://10.0.191.31:8545 <span class="token punctuation">\</span>
+    -e <span class="token assign-left variable">SUBGRAPH_ALLOWLIST_FILEPATH</span><span class="token operator">=</span><span class="token string">&apos;/allowlist.json&apos;</span> <span class="token punctuation">\</span>
+    graph-node
+</code></pre>
+<ul>
+<li>SUBGRAPH_ALLOWLIST_FILEPATH (allowlist.json)</li>
+</ul>
+<pre class="language-"><code class="lang-json"><span class="token punctuation">{</span>
+    <span class="token property">&quot;allowlist&quot;</span> <span class="token operator">:</span> <span class="token punctuation">[</span>
+        <span class="token string">&quot;0xd26114cd6ee289accf82350c8d8487fedb8a0c07&quot;</span><span class="token punctuation">,</span>
+        <span class="token string">&quot;0x209c4784ab1e8183cf58ca33cb740efbf3fc18ef&quot;</span><span class="token punctuation">,</span>
+        <span class="token string">&quot;0xdac17f958d2ee523a2206206994597c13d831ec7&quot;</span><span class="token punctuation">,</span>
+        <span class="token string">&quot;0x36928500bc1dcd7af6a2b4008875cc336b927d57&quot;</span><span class="token punctuation">,</span>
+        <span class="token string">&quot;0xe0bdaafd0aab238c55d68ad54e616305d4a21772&quot;</span><span class="token punctuation">,</span>
+        <span class="token string">&quot;0x798d1be841a82a273720ce31c822c61a67a601c3&quot;</span><span class="token punctuation">,</span>
+        <span class="token string">&quot;0xd13c7342e1ef687c5ad21b27c2b65d772cab5c8c&quot;</span><span class="token punctuation">,</span>
+    <span class="token punctuation">]</span>
+<span class="token punctuation">}</span>
+</code></pre>
+<hr>
+<h3 id="running-data-provider-layer--"><a name="running-data-provider-layer--" class="anchor-navigation-ex-anchor" href="#running-data-provider-layer--"><i class="fa fa-link" aria-hidden="true"></i></a>1.1.3. Running Data Provider Layer ** </h3>
+<p>1. Set the following environment variables:</p>
+<ul>
+<li>RELATION_<em>DB</em>_HOST: Postgre DB host</li>
+<li>RELATION_<em>DB</em>_PORT: Postgre DB port</li>
+<li>RELATION_<em>DB</em>_NAME: Postgre DB username</li>
+<li>RELATION_<em>DB</em>_PWD:  Postgre DB password</li>
+</ul>
+<p>2. Install packages:</p>
+<pre class="language-"><code>npm install
+</code></pre><p>3. run node</p>
+<pre class="language-"><code>npm run dev
+</code></pre><footer class="page-footer"><span class="copyright">Copyright &#xA9; <a href="https://test.relation.network" target="_blank">Relation Netwrok</a> 2019 all right reserved&#xFF0C;powered by Gitbook</span><span class="footer-modification">Modify Time: 
+2022-01-22 13:53:01
+</span></footer>
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="indexing-service-node.html" class="navigation navigation-prev " aria-label="Previous page: Indexing Service Node">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="supported-networks.html" class="navigation navigation-next " aria-label="Next page: Supported Networks">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"description":"LabelNode","title":"Data Analysis Node","level":"2.2","depth":1,"next":{"title":"Supported Networks","level":"2.3","depth":1,"path":"node/supported-networks.md","ref":"node/supported-networks.md","articles":[]},"previous":{"title":"Indexing Service Node","level":"2.1","depth":1,"path":"node/indexing-service-node.md","ref":"node/indexing-service-node.md","articles":[]},"dir":"ltr"},"config":{"plugins":["favicon","autotheme","-lunr","-search","github","edit-link","search-plus","prism","-highlight","splitter","-sharing","sharing-plus","tbfed-pagefooter","expandable-chapters-small","book-summary-scroll-position-saver","anchors","anchor-navigation-ex","copy-code-button","multipart","tabs2","livereload"],"root":".","styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"tbfed-pagefooter":{"copyright":"Copyright &copy <a href='https://test.relation.network' target='_blank'>Relation Netwrok</a> 2019","modify_label":"Modify Time: ","modify_format":"YYYY-MM-DD HH:mm:ss"},"prism":{"css":["prismjs/themes/prism-tomorrow.css"]},"github":{"url":"https://github.com/bigs-3/relation-gitbook"},"livereload":{},"book-summary-scroll-position-saver":{},"splitter":{},"sharing-plus":{"qq":false,"all":["facebook","google","twitter","instapaper","linkedin","pocket","stumbleupon"],"douban":false,"facebook":true,"weibo":false,"instapaper":false,"whatsapp":false,"hatenaBookmark":false,"twitter":true,"messenger":false,"line":false,"vk":false,"pocket":true,"google":false,"viber":false,"stumbleupon":false,"qzone":false,"linkedin":false},"multipart":{},"fontsettings":{"theme":"white","family":"sans","size":2},"fontSettings":{"family":"'Circular', Tahoma, sans-serif","size":2},"tabs2":{},"anchor-navigation-ex":{"associatedWithSummary":false,"float":{"floatIcon":"fa fa-navicon","level1Icon":"fa fa-hand-o-right","level2Icon":"fa fa-hand-o-right","level3Icon":"fa fa-hand-o-right","showLevelIcon":false},"mode":"float","multipleH1":true,"pageTop":{"level1Icon":"fa fa-hand-o-right","level2Icon":"fa fa-hand-o-right","level3Icon":"fa fa-hand-o-right","showLevelIcon":false},"printLog":false,"showGoTop":true,"showLevel":true},"favicon":{"shortcut":"/assets/images/favicon.ico","bookmark":"/assets/images/favicon.ico","appleTouch":"/assets/images/apple-touch-icon.png","appleTouchMore":{"120x120":"/assets/images/apple-touch-icon-120x120.png","180x180":"/assets/images/apple-touch-icon-180x180.png"}},"expandable-chapters-small":{},"copy-code-button":{},"autotheme":{"night":[20,21,22,23,0,1,2,3,4,5],"sepia":[6,7,8,18,19,19],"white":[9,10,11,12,13,14,15,16,17]},"sharing":{"qq":false,"all":["facebook","google","twitter","weibo","instapaper","linkedin","pocket","stumbleupon"],"facebook":false,"weibo":true,"instapaper":false,"whatsapp":false,"hatenaBookmark":false,"twitter":false,"messenger":false,"line":true,"vk":false,"pocket":false,"google":true,"viber":false,"stumbleupon":false,"qzone":true,"linkedin":true},"edit-link":{"label":"Edit This Page","base":"https://github.com/bigs-3/relation-gitbook/edit/main"},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":true},"anchors":{},"search-plus":{}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"gitbook":"3.x.x"},"file":{"path":"node/data-analysis-node.md","mtime":"2022-01-22T05:53:01.591Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2022-01-22T06:59:22.201Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-autotheme/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-github/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-edit-link/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search-plus/jquery.mark.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search-plus/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-splitter/splitter.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sharing-plus/buttons.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-expandable-chapters-small/expandable-chapters-small.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-book-summary-scroll-position-saver/book-summary-scroll-position-saver.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-copy-code-button/toggle.js"></script>
+        
+    
+        
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-tabs2/tabs.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-livereload/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
