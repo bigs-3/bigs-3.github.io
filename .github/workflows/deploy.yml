@@ -1,0 +1,40 @@
+name: Publish to Testnet
+
+on:
+    push:
+        branches:
+            - main
+        paths-ignore:
+            - README.md
+            - LICENSE
+
+jobs:
+    deploy:
+        name: Deploy
+        runs-on: ubuntu-latest # use ubuntu sysmtem mirror
+
+        steps:
+            - name: Checkout repository
+              uses: actions/checkout@v2 # clone from github
+            - name: Use node.js 10.x
+              # setup node
+              # @see https://github.com/actions/setup-node
+              uses: actions/setup-node@v2
+              with:
+                  node-version: '10.x'
+                  cache: 'npm'
+            
+            - name: Install gitbook
+              run: npm install gitbook -g
+
+            - name: Install Node Modules
+              run: gitbook install
+
+            - name: Build dist
+              run: gitbook build
+
+            - name: Deploy
+              uses: peaceiris/actions-gh-pages@v3
+              with:
+                github_token: ${{ secrets.GITHUB_TOKEN }}
+                publish_dir: ./_book
